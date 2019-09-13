@@ -6,7 +6,7 @@ x = input()
 userInput = x.lower()
 if userInput == "y" :
     print("What is the install location: ")
-    install = raw_input()
+    install = input()
     minerl.data.download(install)
 else :
     main.main()
